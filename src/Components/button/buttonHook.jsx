@@ -37,8 +37,6 @@ const buttonHook = (element, config) => {
       cleanupRef.removeEventListener("mouseup", onclick);
     };
   }, [color, duration, element, size]);
-
-  return <div>buttonHook</div>;
 };
 
 export default buttonHook;
